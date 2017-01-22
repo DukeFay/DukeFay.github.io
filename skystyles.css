@@ -46,7 +46,7 @@
     display:none;
   }
   body{
-    background-image:BGmob.jpg;
+    background-image:url("BGmob.jpg");
   }
 }
 
