@@ -41,7 +41,7 @@
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1000px) {
     .fullscreen-bg {
         background: url('BGmob.jpg') center center / cover no-repeat;
     }
