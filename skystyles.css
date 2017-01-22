@@ -41,14 +41,13 @@
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
-@media all and (max-width: 600px) {
-  .fullscreen-bg {
-    background: url('BGmob.jpg') center center / cover no-repeat;
-	}
-
-	.fullscreen-bg__video	 {
-			display:none;
-	}
+@media only screen and (max-width: 600px) {
+  video {
+    display:none;
+  }
+  body{
+    background-image:BGmob.jpg;
+  }
 }
 
 .footer {
